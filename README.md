@@ -28,7 +28,7 @@ This project is inspired by the roadmap.sh Task Tracker project.
 ## 🛠️ Tech Stack
 
 - Java 11
-- Spring Boot 2.7.x
+- Spring Boot 2.7.18
 - Maven
 - Jackson (for JSON serialization)
 - File System (No Database)
@@ -55,31 +55,33 @@ src/main/java/com/example/task_tracker/
 - mvn clean package
 
 ### 2️⃣ Run the CLI app
-- java -jar target/task-tracker-0.0.1-SNAPSHOT.jar
+- java -jar target/task_tracker-0.0.1-SNAPSHOT.jar
 
 ### 💻 CLI Commands
 - Add a task
-  - java -jar target/task-tracker-0.0.1-SNAPSHOT.jar add "Learn Spring Boot"
+  - java -jar target/task_tracker-0.0.1-SNAPSHOT.jar add "Learn Spring Boot"
 
 - List all tasks
-  - java -jar target/task-tracker-0.0.1-SNAPSHOT.jar list
+  - java -jar target/task_tracker-0.0.1-SNAPSHOT.jar list
 
 - List tasks by status
-  - java -jar target/task-tracker-0.0.1-SNAPSHOT.jar list todo
-  - java -jar target/task-tracker-0.0.1-SNAPSHOT.jar list progress
-  - java -jar target/task-tracker-0.0.1-SNAPSHOT.jar list done
+  - java -jar target/task_tracker-0.0.1-SNAPSHOT.jar list todo
+  - java -jar target/task_tracker-0.0.1-SNAPSHOT.jar list progress
+  - java -jar target/task_tracker-0.0.1-SNAPSHOT.jar list done
 
 - Update a task
-  - java -jar target/task-tracker-0.0.1-SNAPSHOT.jar update 1 "Learn Spring Boot CLI"
+  - java -jar target/task_tracker-0.0.1-SNAPSHOT.jar update 1 "Learn Spring Boot CLI"
 
 - Mark task as in progress
-  - java -jar target/task-tracker-0.0.1-SNAPSHOT.jar progress 1
+  - java -jar target/task_tracker-0.0.1-SNAPSHOT.jar progress 1
 
 - Mark task as done
-  - java -jar target/task-tracker-0.0.1-SNAPSHOT.jar done 1
+  - java -jar target/task_tracker-0.0.1-SNAPSHOT.jar done 1
 
 - Delete a task
-  - java -jar target/task-tracker-0.0.1-SNAPSHOT.jar delete 1
+  - java -jar target/task_tracker-0.0.1-SNAPSHOT.jar delete 1
+
+---
 
 ## 📄 Data Storage
 
@@ -94,11 +96,11 @@ Example:
     "id": 1,
     "description": "Learn Spring Boot",
     "status": "DONE",
-    "createdAt": "2026-02-05T11:30:10",
-    "updatedAt": "2026-02-05T11:45:22"
+    "createdAt": "2024-04-05T11:30:10",
+    "updatedAt": "2024-04-05T11:45:22"
   }
 ]
-
+---
 ## 🧠 Learning Outcomes
 
 - Building a non-web Spring Boot application

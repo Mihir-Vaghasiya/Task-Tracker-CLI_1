@@ -27,7 +27,7 @@ public class TaskStorage {
         initFile();
     }
 
-    // File exist nahi karti to create karo
+    // if file not exist so create
     private void initFile() {
         try {
             if (!file.exists()) {
@@ -61,7 +61,7 @@ public class TaskStorage {
         }
     }
 
-    // Next ID generate karo
+    // Next ID generate
     public int getNextId(List<Task> tasks) {
         return tasks.stream()
                 .mapToInt(Task::getId)

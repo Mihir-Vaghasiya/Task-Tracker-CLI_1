@@ -10,11 +10,11 @@ public class Task {
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
 
-    // Default constructor (JSON ke liye zaroori)
+    // Default constructor (for JSON)
     public Task() {
     }
 
-    // New task create karte time use hoga
+    // New task create
     public Task(int id, String description) {
         this.id = id;
         this.description = description;
