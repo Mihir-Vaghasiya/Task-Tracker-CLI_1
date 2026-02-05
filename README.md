@@ -113,3 +113,7 @@ Example:
 
 - Clean CLI command parsing and validation
 
+## 🔗 Reference
+
+- Project idea: https://roadmap.sh/projects/task-tracker
+
